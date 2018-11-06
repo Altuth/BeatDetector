@@ -13,3 +13,4 @@ Finds appropriate beatplacement to 192kbps mp3's, for use in the rhytm game osu.
 There might be some small misbeats, but it will give new and experienced mappers atleast a headstart. 
 
 * If you're getting too high density, make multiplier lower, and vice versa, it shouldnt need to range from lower than 1.0 or higher than 1.05
+* Video tutorial https://www.youtube.com/watch?v=mz2djzlxg2Q&feature=youtu.be
