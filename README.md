@@ -15,3 +15,5 @@ There might be some small misbeats, but it will give new and experienced mappers
 * If you're getting too high density, make multiplier lower, and vice versa, it shouldnt need to range from lower than 1.0 or higher than 1.05
 * mp3 path can be changed in the class ReadFiles.java
 * Video tutorial https://www.youtube.com/watch?v=mz2djzlxg2Q&feature=youtu.be
+
+Special thanks to the libraries that does all the heavy lifting. mp3spi, triton, javalayer and JTransform
