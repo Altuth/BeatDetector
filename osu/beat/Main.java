@@ -11,7 +11,9 @@ public class Main extends JFrame{
     //Simply add bpm and offset manually and things will work out
     public static final double bpm = 207;
     public static final double offset = 1190;
-
+    
+    public static final double multiplier = 1.02;
+    
     //how many samples should be read at each offset, starting at the offset up towards offset + sampleSize
     public static final int sampleSize = 1024;
 
@@ -147,7 +149,7 @@ public class Main extends JFrame{
 
                 for(int h = temp-16; h < temp; h++) {
 
-                    if((scores[h]*1.02) > (average/16)) {
+                    if((scores[h]*multiplier) > (average/16)) {
                         System.out.println("174,123," + (int)(Math.floor(counter)) + ",5,0,0:0:0:0:");
                         counter += increment;
                     }
